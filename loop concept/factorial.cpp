@@ -6,10 +6,19 @@ int main()
     cout<<"Enter the number for factorial: ";
     cin>>num;
     fact =1;
-    for (i = 1; i <= num; i++)
+    for (i=num; i >= 1; --i)
     {
+        //if ()
+       // {
         fact=i*fact;
+        cout<<i;
+        if (i>1)
+        {
+            cout<<"x";
+        }
     }
-    cout<<fact<<endl;
+    cout<<"="<<fact;
+     
+    // cout<<"="<<fact<<endl;
     
 }

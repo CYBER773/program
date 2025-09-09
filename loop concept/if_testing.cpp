@@ -6,19 +6,10 @@ int main()
     cout<<"Enter the number: ";
     cin>>num;
     if(num>0)
-    {
-        cout<<"number is positive";
-    }
+    cout<<"number is positive";
+    else if(num=0)
+    cout<<"number is zero";
     else
-    {
-        if (num=0)
-        {
-            cout<<"number is zero";
-        }
-        else
-        {
-            cout<<"number is negative";
-        }
-        
-    }
+    cout<<"number is negative";
+    cout<<endl;
 }

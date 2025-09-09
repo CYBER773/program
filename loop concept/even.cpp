@@ -6,7 +6,7 @@ int main()
     for(int a=0; a<=5;a=a+2){
         cout<<a<<endl;
     }
-    /* code */
+    /* this is 2nd code start now */
     int count;
     cin>>count;
     /*this code work like as well*/

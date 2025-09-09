@@ -2,22 +2,17 @@
 using namespace std;
 int main()
 {
-    int num;
-    cout<<"Enter the number: ";
-    cin>>num;
-    for (int rowh = 1; rowh <=num; rowh++)
+    int row,col;
+    for (row = 1; row <=5; row++)
     {
-        for(int col=1; col<=num-rowh-1; col=col+1)
+        for (int space = 1; space <=5-row+1; space++)
         cout<<" ";
-        for(int row=1; row<=num; row=row+2)
+        for(int col=1; col<=2*row-1; col=col+1)
         {
-            for(int col=1; col<=row; col++)
-            {
             cout<<"*";
-            }
-        cout<<endl;
         }
-
+        cout<<endl;
+        
     }
     
-} 
+}

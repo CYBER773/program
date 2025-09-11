@@ -19,7 +19,4 @@ int main()
     b = false;
     c = 0 ;
     cout<<b;
-
-
-
 }
